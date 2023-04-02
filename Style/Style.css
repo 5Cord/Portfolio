@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+}
+
+h1 {
+  float: right;
+  top: 27px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #000000;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: relative;
+  /* overflow-y: hidden; */
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+  align-items: center;
+}
+
+.background {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.block__logo {
+  width: 111px;
+  height: 111px;
+  background-color: #d9d9d9;
+}
+
+.block__logo__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 111px;
+  height: 111px;
+}
+
+.block__socSeti {
+  width: 244px;
+  height: 64.64px;
+  background-color: #d9d9d9;
+}
+
+.block__socSeti__image {
+  display: flex;
+}
+
+.block__socSeti__image img {
+  width: 46.59px;
+  height: 46.59px;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+.container {
+  padding: 0 70px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.containerContent {
+  padding: 0 70px;
+  font-size: 36px;
+}
+
+.block__tiitleText {
+  z-index: -2;
+  top: -31px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-weight: 400;
+  font-size: 96px;
+}
+
+.TitleText__MainScrin {
+  font-weight: bold;
+}
+
+.block__circleNext {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+}
+
+.block__circleNext__1th,
+.block__circleNext__2th,
+.block__circleNext__3th {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #d9d9d9;
+}
+
+.ViewProj {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  background: #d9d9d9;
+  border: none;
+  width: 276px;
+  height: 84px;
+  cursor: pointer;
+}
+
+.transition {
+  transition: 0.4s;
+}
+
+.ViewProj:hover {
+  background: #b3b3b3;
+}
+
+.UpBlock {
+  display: flex;
+  margin-top: 164px;
+  margin-bottom: 164px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.DownBlock {
+  display: flex;
+  margin-top: 164px;
+  margin-bottom: 164px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: justify;
+  word-spacing: 18px;
+}
+
+.PhoneImage {
+  position: absolute;
+  left: -37px;
+  top: 188px;
+  width: 216px;
+  height: 425px;
+  z-index: 2;
+}
+
+.PCImage {
+  height: 552px;
+  left: 877px;
+}
+
+.ScreenShotUp {
+  position: absolute;
+  width: 626px;
+  height: 352px;
+  left: 1154px;
+  top: 144px;
+}
+
+.ScreenShotDown {
+  position: absolute;
+  width: 626px;
+  height: 352px;
+  left: 774px;
+  top: 0px;
+}
+
+.LeftBlock {
+  position: relative;
+  width: 38.2%;
+}
+
+.RightBlock {
+  position: relative;
+}
+
+footer {
+  height: 111px;
+  background: #d9d9d9;
+  display: flex;
+  align-items: center;
+  padding: 0 70px;
+  font-size: 36px;
+  justify-content: space-between;
+  margin-top: 30%;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: justify;
+}
+
+.iconFooter {
+  width: 79px;
+}
+
+.LeftBlock__Down {
+  position: relative;
+  width: 38.2%;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Style/Style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Style/StyleSlider.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Main</title>
+</head> 
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="block__logo">
+                <div class="block__logo__text">Vaytovich Dmitriy</div>
+            </div>
+            <div class="block__socSeti">
+                <div class="block__socSeti__image">
+                    <a href=""><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
+                    <a href=""><img src="Image/github-sign.png" alt="IconGitHub" /></a>
+                    <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
+                    <a href=""><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
+                </div>
+            </div>
+        </nav>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="block__tiitleText swiper-slide">
+                    <div class="TitleText">Vaytovich Dmitriy </div>
+                    <div class="TitleText__MainScrin">Frontend разработчик</div>
+                </div>
+                <div class="block__tiitleText swiper-slide">
+                    <div class="TitleText">Веб -сайт-клон</div>
+                    <div class="TitleText__MainScrin ViewProj transition">
+                        <button onclick="window.location.href = 'Page.html';" " class="ViewProj transition ">View Project</button></div>
+                </div>
+                <div class="block__tiitleText swiper-slide ">
+                    <div class="TitleText ">Веб-приложение CRUD</div>
+                    <div class="TitleText__MainScrin ViewProj transition "><button class="ViewProj transition ">View Project</button></div>
+                </div>
+                <div class="block__tiitleText swiper-slide ">
+                    <div class="TitleText ">Веб-сайт, подключенный к API</div>
+                    <div class="TitleText__MainScrin ViewProj transition "><button class="ViewProj transition ">View Project</button></div>
+                </div>
+                <div class="block__tiitleText swiper-slide ">
+                    <div class="TitleText ">Веб-сайт "perfect score " </div>
+                    <div class="TitleText__MainScrin ViewProj transition "><button class="ViewProj transition ">View Project</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block__circleNext right ">
+            <div class="block__circleNext__1th swiper-button-next "></div>
+            <div class="block__circleNext__1th "></div>
+            <div class="block__circleNext__2th "></div>
+            <div class="block__circleNext__3th "></div>
+        </div>
+        <div class="block__circleNext left ">
+            <div class="block__circleNext__1th swiper-button-prev "></div>
+            <div class="block__circleNext__1th "></div>
+            <div class="block__circleNext__2th "></div>
+            <div class="block__circleNext__3th "></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js "></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper ", {
+            navigation: {
+                nextEl: ".swiper-button-next ",
+                prevEl: ".swiper-button-prev ",
+            },
+        });
+    </script>
+</body>
+
+</html>

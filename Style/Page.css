@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  margin-bottom: 8.5%;
+}
+
+.block__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+}
+
+.container__page {
+  padding: 0 70px;
+  display: flex;
+}
+
+.leftBlock {
+  width: 200%;
+}
+
+. .titleDescription {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+}
+.description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 217%;
+  line-height: 43px;
+  text-align: justify;
+  margin-right: 10%;
+}
+
+.Notebook {
+  width: 94.7%;
+}
+
+.Telephone {
+  width: 21.5%;
+}

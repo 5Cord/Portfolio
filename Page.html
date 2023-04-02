@@ -1,64 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="Style/Style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Style/Page.css" />
+    <link rel="stylesheet" href="Style/Style.css" />
     <title>Page</title>
   </head>
 
   <body>
-    <div class="container">
-      <nav>
-        <div class="block__logo">
-          <div class="block__logo__text">Vaytovich Dmitriy</div>
-        </div>
-        <h1>Веб-сайт-клон</h1>
-      </nav>
-    </div>
-    <div class="containerContent">
-      <div class="UpBlock">
-        <div class="LeftBlock">
-          <h2>Описание:</h2>
-          <div class="description">
-            This project was created for the Google Android Hackathon 2016, and
-            was a team submission made by myself and 3 android developers.
-            <br />
-            <br />
-            Each year Google gathers developers from across the country to teach
-            them about material design development, helping them to cross the
-            gap between plain Java programming and the native android design
-            purposed programming.
-          </div>
-        </div>
-        <div class="RightBlock">
-          <img src="Image/Telephone.png" alt="imagePhone" class="PhoneImage" />
-          <img src="Image/NoteBook.png" alt="imagePC" class="PCImage" />
+    <nav>
+      <div class="block__logo">
+        <div class="block__logo__text">Vaytovich Dmitriy</div>
+      </div>
+      <div class="block__text">Веб-сайт-клон</div>
+    </nav>
+
+    <div class="container__page">
+      <div class="leftBlock">
+        <div class="description">
+          <div class="titleDescription">Описание:</div>
+          This project was created for the Google Android Hackathon 2016, and
+          was a team submission made by myself and 3 android developers. 
+        </br>
+        </br>
+          Each year Google gathers developers from across the country to teach them
+          about material design development, helping them to cross the gap
+          between plain Java programming and the native android design purposed
+          programming.
         </div>
       </div>
-      <div class="DownBlock">
-        <div class="LeftBlock__Down">
-          <div class="description">
-            This project was created for the Google Android Hackathon 2016, and
-            was a team submission made by myself and 3 android developers.
-          </div>
-        </div>
-        <div class="RightBlock__Down">
-          <img src="Image/screenShot.png" alt="ScreenShotUp" class="ScreenShotUp" />
-          <img src="Image/screenShot.png" alt="ScreenShotDown" class="ScreenShotDown" />
+      <div class="rightBlock">
+        <div class="container__device">
+          <img class="Notebook" src="Image/NoteBook.png" alt="Notebook">
+          <img class="Telephone" src="Image/Telephone.png" alt="Notebook">
         </div>
       </div>
     </div>
   </body>
-
-  <footer>
-    <div class="footer__text">©️ Vaytovich Dmitriy</div>
-    <div class="footer__incon">
-      <img src="Image/vkontakte-sign.png" alt="iconFooter" class="iconFooter" />
-      <img src="Image/github-sign.png" alt="iconFooter" class="iconFooter" />
-      <img src="Image/insta-sign.png" alt="iconFooter" class="iconFooter" />
-      <img src="Image/twitter-sign.png" alt="iconFooter" class="iconFooter" />
-    </div>
-  </footer>
 </html>

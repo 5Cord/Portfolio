@@ -16,15 +16,11 @@ nav {
 }
 
 .container__page {
-  padding: 0 70px;
-  display: flex;
+  display: inline-block;
+  margin: 0 70px;
 }
 
-.leftBlock {
-  width: 200%;
-}
-
-. .titleDescription {
+.titleDescription {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -38,13 +34,27 @@ nav {
   font-size: 217%;
   line-height: 43px;
   text-align: justify;
-  margin-right: 10%;
+}
+
+.leftBlock {
+  width: 39%;
+  margin-right: 71px;
+  float: left;
+}
+
+.rightBlock {
+  width: 56%;
+  float: right;
 }
 
 .Notebook {
-  width: 94.7%;
+  position: absolute;
+  width: 50%;
 }
 
 .Telephone {
-  width: 21.5%;
+  position: absolute;
+  width: 11%;
+  margin-top: 9.5%;
+  margin-left: -1%;
 }

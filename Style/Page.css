@@ -16,8 +16,8 @@ nav {
 }
 
 .container__page {
-  display: inline-block;
   margin: 0 70px;
+  display: flex;
 }
 
 .titleDescription {
@@ -39,22 +39,42 @@ nav {
 .leftBlock {
   width: 39%;
   margin-right: 71px;
-  float: left;
 }
 
 .rightBlock {
-  width: 56%;
-  float: right;
+  width: 57%;
 }
 
 .Notebook {
   position: absolute;
   width: 50%;
+  margin-left: 1%;
 }
 
 .Telephone {
   position: absolute;
   width: 11%;
   margin-top: 9.5%;
-  margin-left: -1%;
+  margin-left: -0.5%;
+}
+
+.downPage {
+  margin-top: 9%;
+  margin-bottom: 28%;
+}
+
+.ScreenUp {
+  position: absolute;
+}
+.ScreenDown {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+  background-color: antiquewhite;
+}
+
+footer {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 10%;
 }

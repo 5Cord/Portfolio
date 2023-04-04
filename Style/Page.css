@@ -48,7 +48,7 @@ nav {
 .Notebook {
   position: absolute;
   width: 50%;
-  margin-left: 1%;
+  margin-left: 2%;
 }
 
 .Telephone {
@@ -63,18 +63,15 @@ nav {
   margin-bottom: 28%;
 }
 
-.ScreenUp {
-  position: absolute;
-}
 .ScreenDown {
+  position: absolute;
+  width: 34.5%;
+}
+.ScreenUp {
+  width: 34.5%;
   position: absolute;
   margin-top: 10%;
   margin-left: 20%;
   background-color: antiquewhite;
 }
 
-footer {
-  background-color: #d9d9d9;
-  width: 100%;
-  height: 10%;
-}

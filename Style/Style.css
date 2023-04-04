@@ -40,45 +40,6 @@ nav {
   align-items: center;
 }
 
-.background {
-  min-width: 100%;
-  min-height: 100%;
-  position: relative;
-}
-
-.block__logo {
-  width: 111px;
-  height: 111px;
-  background-color: #d9d9d9;
-}
-
-.block__logo__text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 111px;
-  height: 111px;
-  text-align: center;
-  font-size: 36px;
-}
-
-.block__socSeti {
-  width: 244px;
-  height: 64.64px;
-  background-color: #d9d9d9;
-}
-
-.block__socSeti__image {
-  display: flex;
-}
-
-.block__socSeti__image img {
-  width: 46.59px;
-  height: 46.59px;
-  padding-left: 12px;
-  padding-top: 10px;
-}
-
 .container {
   font-size: 36px;
   text-align: center;

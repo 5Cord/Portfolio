@@ -65,13 +65,15 @@ nav {
 
 .ScreenDown {
   position: absolute;
-  width: 34.5%;
 }
 .ScreenUp {
-  width: 34.5%;
   position: absolute;
   margin-top: 10%;
   margin-left: 20%;
   background-color: antiquewhite;
 }
 
+
+.screen{
+  width: 32%;
+}

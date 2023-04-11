@@ -62,16 +62,14 @@
         </div>
         <div class="container__circle ">
             <div class="block__circleNext right ">
-                <div class="block__circleNext__1th swiper-button-next "></div>
                 <div class="block__circleNext__1th "></div>
                 <div class="block__circleNext__2th "></div>
-                <div class="block__circleNext__3th "></div>
+                <div class="block__circleNext__3th "><div class="block__circleNext__1th swiper-button-next "></div></div>
             </div>
             <div class="block__circleNext left ">
-                <div class="block__circleNext__1th swiper-button-prev "></div>
                 <div class="block__circleNext__1th "></div>
                 <div class="block__circleNext__2th "></div>
-                <div class="block__circleNext__3th "></div>
+                <div class="block__circleNext__3th ">                <div class="block__circleNext__1th swiper-button-prev "></div></div>
             </div>
         </div>
     </div>
@@ -83,6 +81,9 @@
             navigation: {
                 nextEl: ".swiper-button-next ",
                 prevEl: ".swiper-button-prev ",
+            },
+            mousewheel: {
+                releaseOnEdges: true,
             },
         });
     </script>

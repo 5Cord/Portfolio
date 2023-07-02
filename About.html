@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/Page.css" />
+    <link rel="stylesheet" href="Style/About.css" />
+    <link rel="stylesheet" href="Style/Header.css" />
+    <link rel="stylesheet" href="Style/Footer.css" />
+    <title>Page</title>
+  </head>
+
+  <body>
+    <button class="back-button" onclick="goBack()" id="backButton">
+      &larr; Назад
+    </button>
+    <nav>
+      <div class="block__logo">
+        <div class="block__logo__text">Vaytovich Dmitriy</div>
+      </div>
+      <div id="section1" class="block__text">Обо мне</div>
+    </nav>
+
+    <div class="containerContent">
+      <div class="left__nav">
+        <a href="#" onclick="openModal()">Резюме</a>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p><embed src="RDV.pdf" /></p>
+          </div>
+        </div>
+      </div>
+      <div class="block__photo">
+        <img src="Image/ava.png" alt="" />
+      </div>
+      <div class="block__textAbout">
+        <table class="iksweb">
+          <tbody>
+            <tr>
+              <td colspan="2">
+                <table class="iksweb_in">
+                  <tbody>
+                    <tr>
+                      <th>О себе</th>
+                    </tr>
+                    <tr>
+                      <td>Я начинающий Front-end разработчик. Имея широкий
+                        кругозор, общаясь с множеством интересных людей, посетив
+                        большое количество заведений, организация и их сайтов
+                        тем самым разрабатываю дизаны, веб-сайты для максимально
+                        разных предметных областей.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">Навыки</th>
+            </tr>
+            <tr>
+              <th>Frontend</th>
+              <th>Верстка</th>
+            </tr>
+            <tr>
+              <td>Базовые знания: JavaScript, React, PHP. MySQL, Bootstrap;</td>
+              <td>Опыт работы с HTML, CSS;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <ol>
+                  <li>Опыт создания HTML-страницы сайта на основе дизайн-макетов;
+                  </li>
+                  <li>Опыт адаптивной/резиновой верстки;</li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <ul>
+                  <li>Опыт создания HTML-страницы сайта на основе дизайн-макетов;
+                  </li>
+                  <li>Опыт вёрстки сайтов и шаблонов для CMS;</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <dl>
+                  <dt>Навыки</dt>
+                  <dd>Привязки к пользовательскому интефейсу скриптов, которые обеспечивают визуальную и анимацию страниц сайта.
+                  </dd>
+                  <dd>Обеспечения неоьходимого уровня пользовательского интефейса(UI)
+                  </dd>
+                  <dt>Знание</dt>
+                  <dd>Препроцессор SASS</dd>
+                  <dd>Методологию BEM</dd>
+                </dl>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="#section1">
+        <div class="href">
+          Перейти наверх
+        </div></a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container__footer">
+        <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
+        <div class="rightBlock__footer">
+          <div class="block__socSeti">
+            <div class="block__socSeti__image">
+              <a href=""><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
+              <a href=""
+                ><img src="Image/github-sign.png" alt="IconGitHub"
+              /></a>
+              <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
+              <a href=""
+                ><img src="Image/twitter-sign.png" alt="IconTwitt"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Функция для открытия модального окна
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
+        document.body.classList.add("modal-open");
+      }
+
+      // Функция для закрытия модального окна
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        document.body.classList.remove("modal-open");
+      }
+    </script>
+    <script src="script/buttonScript.js"></script>
+  </body>
+</html>

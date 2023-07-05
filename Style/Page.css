@@ -22,6 +22,7 @@ nav {
 .container__page {
   margin: 0 70px;
   display: flex;
+  height: 20vw;
 }
 
 .titleDescription {
@@ -62,7 +63,7 @@ nav {
 
 .downPage {
   margin-top: 20%;
-  margin-bottom: 14%;
+  margin-bottom: 15%;
 }
 
 .ScreenDown {

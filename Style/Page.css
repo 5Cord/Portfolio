@@ -37,6 +37,7 @@ nav {
   font-size: 1.9vw;
   line-height: 2.25vw;
   text-align: justify;
+  margin-bottom: 10px;
 }
 
 .leftBlock {
@@ -97,4 +98,8 @@ nav {
 
 .rightBlock__footer{
   margin-bottom: 3px;
+}
+
+.boost{
+  margin-bottom: 20%;
 }

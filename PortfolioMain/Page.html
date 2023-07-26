@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Style/Page.css" />
+    <link rel="stylesheet" href="Style/Header.css" />
+    <link rel="stylesheet" href="Style/Footer.css" />
+    <title>Page</title>
+  </head>
+
+  <body> 
+    <button class="back-button" onclick="goBack()" id="backButton">&larr; Назад</button>
+    <nav>
+      <div class="block__logo">
+        <div class="block__logo__text">Vaytovich Dmitriy</div>
+      </div>
+      <div class="block__text">Веб-сайт-клон</div>
+    </nav>
+
+    <div class="container__page">
+      <div class="leftBlock">
+        <div class="description">
+          <div class="titleDescription">Описание:</div>
+          Умение точно преобразовать дизайн в полнофункциональную веб-страницу - это навык, который обладает квалифицированный frontend разработчик. </br>
+        </div>
+      </div>
+      <div class="rightBlock">
+        <div class="container__device">
+          <img class="Notebook" src="Image/NoteBook(content).png" alt="Notebook">
+          <img class="Telephone" src="Image/Telephone.png" alt="Notebook">
+        </div>
+      </div>
+    </div>
+    <div class="container__page downPage">
+      <div class="leftBlock">
+        <div class="description">
+          Данный проект был разработан по заранее созданному макету.  Все эллементы интефейса, дизайна, функциональные моменты были перенесены с макета на рабочий сайт с максимальной точностью.
+          Тем самым разработчки показал свой увроень знания верстки и умения применять JavaScript на реальных проектах. Также можно клон сайта сверить с оригинальной его версией.
+        </br>
+      </br> Макет сайта был взять с открытого и беплатного источника в интенете.
+        </br>
+        </div>
+      </div>
+      <div class="rightBlock">
+        <div class="container__device">
+          <div class="overlay" id="overlay"></div>
+          <img class="ScreenUp screen" src="Image/screenShot.png" alt="Notebook">
+          <img class="ScreenDown screen" src="Image/screenShotTwo.png" alt="Notebook">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container__footer">
+        <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
+        <div class="rightBlock__footer">
+
+          <div class="block__socSeti">
+            <div class="block__socSeti__image">
+                <a href=""><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
+                <a href=""><img src="Image/github-sign.png" alt="IconGitHub" /></a>
+                <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
+                <a href=""><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
+            </div>
+        </div>
+
+        </div>
+      </div>
+    </footer>
+    <script src="script/magnImage.js"></script>
+    <script src="script/buttonScript.js"></script>
+  </body>
+</html>

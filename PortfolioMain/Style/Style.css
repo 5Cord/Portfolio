@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+}
+
+h1 {
+  float: right;
+  top: 27px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #000000;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: relative;
+  z-index: -1;
+}
+
+nav {
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+  align-items: center;
+}
+
+.container {
+  font-size: 36px;
+  text-align: center;
+}
+
+.containerContent {
+  padding: 0 70px;
+  font-size: 36px;
+}
+
+.block__tiitleText {
+  z-index: -2;
+  top: -31px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-weight: 400;
+  font-size: 96px;
+}
+
+.TitleText__MainScrin {
+  font-weight: bold;
+}
+
+.block__circleNext {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+}
+
+.block__circleNext__1th,
+.block__circleNext__2th,
+.block__circleNext__3th {
+  width: 5.3vh;
+  height: 5.3vh;
+  border-radius: 50px;
+  background: #d9d9d9;
+}
+
+.ViewProj {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  background: #d9d9d9;
+  border: none;
+  width: 276px;
+  height: 84px;
+  cursor: pointer;
+}
+
+.transition {
+  transition: 0.4s;
+}
+
+.ViewProj:hover {
+  background: #b3b3b3;
+}
+
+.container__circle {
+  padding: 0 70px;
+}

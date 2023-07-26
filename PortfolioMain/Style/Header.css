@@ -1,0 +1,39 @@
+.block__logo {
+  width: 111px;
+  height: 111px;
+  background-color: #d9d9d9;
+}
+
+.block__logo__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 111px;
+  height: 111px;
+  text-align: center;
+  font-size: 36px;
+}
+
+nav {
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+  align-items: center;
+}
+
+.block__socSeti {
+  background-color: #d9d9d9;
+}
+
+.block__socSeti__image {
+  display: flex;
+}
+
+.block__socSeti__image img {
+  width: 2vw;
+  height: 2vw;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+}

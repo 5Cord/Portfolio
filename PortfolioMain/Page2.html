@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Style/Page.css" />
+  <link rel="stylesheet" href="Style/Header.css" />
+  <link rel="stylesheet" href="Style/Footer.css" />
+  <title>Page</title>
+</head>
+
+<body>
+  <button class="back-button" onclick="goBack()" id="backButton">&larr; Назад</button>
+  <nav>
+    <div class="block__logo">
+      <div class="block__logo__text">Vaytovich Dmitriy</div>
+    </div>
+    <div class="block__text">Веб-приложение CRUD</div>
+  </nav>
+
+  <div class="container__page">
+    <div class="leftBlock">
+      <div class="description">
+        <div class="titleDescription">Описание:</div>
+        Выполнение операций CRUD (Создание-чтение-Обновление-удаление) является очень распространенной функцией для
+        большинства веб-сайтов (таких как блоги, электронная коммерция, информационные панели и так далее).</br>
+      </div>
+    </div>
+    <div class="rightBlock">
+      <div class="container__device">
+        <img class="Notebook" src="Image/NoteBook(CRUD).png" alt="Notebook">
+        <img class="Telephone" src="Image/Telephone(CRUD).png" alt="Notebook">
+      </div>
+    </div>
+  </div>
+  <div class="container__page downPage">
+    <div class="leftBlock">
+      <div class="description">
+        Для разработки приложения CRUD использовались языки программирования как JavaScript, PHP, MySQL.
+        В приложении реализовано создание, удаление, изменение статей на каждой странице.
+        Регистрация модераторов (субадминов) реализована с преоритетом, только главный администратор может
+        регистрировать пользоватлей.
+        А также на сайте реализована обратная связь пользователя с администратором, для коммереских предложений.
+        <br>
+        <br>
+        Для данного сайта зарнее был создан референс по которому создавалось приложение.
+        </br>
+      </div>
+    </div>
+    <div class="rightBlock">
+      <div class="container__device">
+        <div class="overlay" id="overlay"></div>
+        <img class="ScreenUp screen" src="Image/CRUD1.png" alt="Notebook">
+        <img class="ScreenDown screen" src="Image/CRUD2.png" alt="Notebook">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container__footer">
+      <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
+      <div class="rightBlock__footer">
+
+        <div class="block__socSeti">
+          <div class="block__socSeti__image">
+            <a href=""><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
+            <a href=""><img src="Image/github-sign.png" alt="IconGitHub" /></a>
+            <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
+            <a href=""><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="script/magnImage.js"></script>
+  <script src="script/buttonScript.js"></script>
+</body>
+
+</html>

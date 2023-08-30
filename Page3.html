@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="Style/Page.css" />
-    <link rel="stylesheet" href="Style/Header.css" />
-    <link rel="stylesheet" href="Style/Footer.css" />
-    <title>Page</title>
-  </head>
 
-  <body>
-    <button class="back-button" onclick="goBack()" id="backButton">&larr; Назад</button>
-    <nav>
-      <div class="block__logo">
-        <div class="block__logo__text">Vaytovich Dmitriy</div>
-      </div>
-      <div class="block__text">Веб-сайт, подключенный к API</div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Style/Page.css" />
+  <link rel="stylesheet" href="Style/Header.css" />
+  <link rel="stylesheet" href="Style/Footer.css" />
+  <title>Page</title>
+</head>
 
-    <div class="container__page">
-      <div class="leftBlock">
-        <div class="description">
-          <div class="titleDescription">Описание:</div>
-          Выполнение операций CRUD (Создание-чтение-Обновление-удаление) является очень распространенной функцией для большинства веб-сайтов (таких как блоги, электронная коммерция, информационные панели и так далее), Поэтому вам нужно привыкнуть создавать их как интерфейсному разработчику.</br>
-        </div>
-      </div>
-      <div class="rightBlock">
-        <div class="container__device">
-          <img class="Notebook" src="Image/NoteBook(API).png" alt="Notebook">
-          <img class="Telephone" src="Image/Telephone(API).png" alt="Notebook">
-        </div>
+<body>
+  <button class="back-button" onclick="goBack()" id="backButton">&larr; Назад</button>
+  <nav>
+    <div class="block__logo">
+      <div class="block__logo__text">Vaytovich Dmitriy</div>
+    </div>
+    <div class="block__text">Веб-сайт, подключенный к API</div>
+  </nav>
+
+  <div class="container__page">
+    <div class="leftBlock">
+      <div class="description">
+        <div class="titleDescription">Описание:</div>
+        API (Application Programming Interface) – это набор правил, по которым одно приложение может взаимодействовать с
+        другим. В контексте веб-разработки API позволяет вам получать данные от сторонних сервисов и использовать их на
+        вашем сайте или отправлять данные на сторонние сервисы.</br>
       </div>
     </div>
-    <div class="container__page downPage">
-      <div class="leftBlock">
-        <div class="description">
-          Рекомендуемая технология: приложения CRUD требуют использования повторно используемых компонентов, поэтому рекомендуется создавать их с использованием фреймворка таких как React/Vue, или использование технологий PHP, MySQL и примененеие POST и GET запросов.
+    <div class="rightBlock">
+      <div class="container__device">
+        <img class="Notebook" src="Image/NoteBook(API).png" alt="Notebook">
+        <img class="Telephone" src="Image/Telephone(API).png" alt="Notebook">
+      </div>
+    </div>
+  </div>
+  <div class="container__page downPage">
+    <div class="leftBlock">
+      <div class="description">
+        Разрабатывая данный проект, разработчик ипользовал открытый, бесплатный API (<a
+          href="https://restcountries.com/" target="_blank">restcountries.com</a>).
+        Приложение построенно на взаимодействие пользователя и определнным набором правил, который прописал разработчик.
+        Данное API даёт доступ к большой базе странн и её полной информации (континет, столица, страна, язык, валюта).
         </br>
-        </div>
-      </div>
-      <div class="rightBlock">
-        <div class="container__device">
-          <img class="ScreenUp screen" src="Image/API_1.png" alt="Notebook">
-          <img class="ScreenDown screen" src="Image/API_2.png" alt="Notebook">
-        </div>
       </div>
     </div>
-    <footer>
-      <div class="container__footer">
-        <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
-        <div class="rightBlock__footer">
+    <div class="rightBlock">
+      <div class="container__device">
+        <div class="overlay" id="overlay"></div>
 
-          <div class="block__socSeti">
-            <div class="block__socSeti__image">
-                <a href=""><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
-                <a href=""><img src="Image/github-sign.png" alt="IconGitHub" /></a>
-                <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
-                <a href=""><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
-            </div>
-        </div>
-
-        </div>
+        <div class="cross none">✖</div>
+        <img class="ScreenUp screen" src="Image/API_1.png" alt="Notebook">
+        <img class="ScreenDown screen" src="Image/API_2.png" alt="Notebook">
       </div>
-    </footer>
-    <script src="script/buttonScript.js"></script>
-  </body>
+    </div>
+  </div>
+  <footer>
+    <div class="container__footer">
+      <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
+      <div class="rightBlock__footer">
+
+        <div class="block__socSeti">
+          <div class="block__socSeti__image">
+            <a href=""><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
+            <a href=""><img src="Image/github-sign.png" alt="IconGitHub" /></a>
+            <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
+            <a href=""><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="script/buttonScript.js"></script>
+  <script src="script/magnImage.js"></script>
+</body>
+
 </html>

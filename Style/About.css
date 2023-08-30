@@ -1,5 +1,6 @@
-.containerContent{
+.containerContent {
   display: flex;
+  margin-bottom: 200px;
 }
 
 .block__logo__text {
@@ -14,29 +15,65 @@
 }
 
 .blockLeft {
-  width: 694px;
+  width: 70%;
+  margin-right: 94px;
 }
 
 .blockRight {
-  width: 994px;
+  width: 100%;
 }
 
-
-.blockLeft__photo{
+.blockLeft__photo {
   display: block;
   width: 497px;
   height: 497px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   margin-bottom: 20px;
 }
 
-.blockRight__title{
+.blockRight__title {
   display: flex;
   width: 100%;
   height: 80px;
-  background-color: #D1D1D1;
+  background-color: #d1d1d1;
   font-size: 45px;
   font-weight: bold;
   align-items: center;
   justify-content: center;
+}
+
+.blockLeft__description__titile {
+  color: #afd5ff;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.blockLeft__description__text {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.blockRight__subTitle {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #D9D9D9;
+  font-size: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blockRight__skills{
+  display: flex;
+}
+
+.BRS{
+  width: 100%;
+  height: 773px;
+  background-color: #E9E9E9;
+  padding: 19px 104px 0 33px;
+}
+
+.blockRight__BRS--point{
+  margin-bottom: 20px;
 }

@@ -1,0 +1,22 @@
+.blockRight__skills__right {
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.05);
+}
+
+.blockRight__skills__right::-webkit-scrollbar {
+    width: 6px;
+}
+
+.blockRight__skills__right::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.blockRight__skills__right::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.blockRight__skills__right::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.05);
+}

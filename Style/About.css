@@ -24,7 +24,8 @@
 }
 
 .blockLeft__photo {
-  display: block;
+  display: flex;
+  justify-content: center;
   width: 497px;
   height: 497px;
   background-color: #d9d9d9;
@@ -53,6 +54,10 @@
   font-weight: 400;
 }
 
+.blockRight__skills__right{
+  overflow-y:auto;
+}
+
 .blockRight__subTitle {
   display: flex;
   width: 100%;
@@ -71,9 +76,39 @@
   width: 100%;
   height: 773px;
   background-color: #E9E9E9;
-  padding: 19px 104px 0 33px;
+  padding: 19px 0 0 33px;
 }
 
 .blockRight__BRS--point{
   margin-bottom: 20px;
+  font-size: 40px;
+  width: 100%;
+}
+
+
+.zavod {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  font-size: 50%;
+  width: 100%;
+}
+
+.zavod:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
 }

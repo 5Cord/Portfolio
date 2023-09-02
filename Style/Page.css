@@ -107,16 +107,38 @@ nav {
 }
 
 .magnImage {
-  width: 52vw;
+  /* Add styles for magnified image here */
+  transform: scale(1.5);
+  transition: transform 0.3s ease-in-out;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 999;
+}
 
-  margin-top: 0;
-  margin-left: 0;
+.overlay {
+  /* Add styles for the overlay here */
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+}
+
+.close-button {
+  position: absolute;
+  top: 35vh;
+  right: 27vw;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  z-index: 999;
 }
 
 .cross{

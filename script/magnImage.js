@@ -1,20 +1,38 @@
-let image = document.querySelectorAll('.screen');
-let cross = document.querySelector('.cross');
+let images = document.querySelectorAll(".screen");
 let overlay = document.getElementById("overlay");
+let closeButton = document.getElementById("close-button");
 
-image.forEach(el => {
-    el.addEventListener('click', () => {
-        console.log(el);
-        el.classList.toggle("magnImage")
-        // cross.classList.toggle("none")
-        if (el.classList.contains('magnImage')) {
-            document.body.style.overflow = 'hidden';
-            overlay.style.display = "block";
-        } else {
-            document.body.style.overflow = 'auto';
-            overlay.style.display = "none";
-        }
-    })
+images.forEach((el) => {
+  el.addEventListener("click", () => {
+    if (!el.classList.contains("magnImage")) {
+      el.classList.toggle("magnImage");
+      document.body.style.overflow = "hidden";
+      overlay.style.display = "block";
+      closeButton.style.display = "block";
+    }
+  });
 });
 
+overlay.addEventListener("click", (event) => {
+  if (event.target === overlay) {
+    images.forEach((el) => {
+      if (el.classList.contains("magnImage")) {
+        el.classList.remove("magnImage");
+        overlay.style.display = "none";
+        document.body.style.overflow = "auto";
+        closeButton.style.display = "none";
+      }
+    });
+  }
+});
 
+closeButton.addEventListener("click", () => {
+  images.forEach((el) => {
+    if (el.classList.contains("magnImage")) {
+      el.classList.remove("magnImage");
+      overlay.style.display = "none";
+      document.body.style.overflow = "auto";
+      closeButton.style.display = "none";
+    }
+  });
+});

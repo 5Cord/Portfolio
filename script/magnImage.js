@@ -36,3 +36,20 @@ closeButton.addEventListener("click", () => {
     }
   });
 });
+
+const magnImages = document.querySelectorAll('.magnImage');
+
+magnImages.forEach((image) => {
+  let isZoomed = false;
+
+  image.addEventListener('click', () => {
+    if (!isZoomed) {
+      image.style.transform = 'scale(1.2)'; /* Увеличиваем изображение на 20% */
+      image.style.transition = 'transform 0.3s'; /* Добавляем плавный переход */
+      isZoomed = true;
+    } else {
+      image.style.transform = 'scale(1)'; /* Возвращаем к начальному размеру */
+      isZoomed = false;
+    }
+  });
+});

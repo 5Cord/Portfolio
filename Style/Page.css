@@ -82,6 +82,19 @@ nav {
   cursor: pointer;
 }
 
+.magnImage {
+  /* Add styles for magnified image here */
+  transition: transform 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 999;
+  width: 65vw;
+}
+
 .back-button {
   position: fixed;
   top: 10vw;
@@ -108,19 +121,6 @@ nav {
 
 .boost {
   margin-bottom: 20%;
-}
-
-.magnImage {
-  /* Add styles for magnified image here */
-  transform: scale(1.5);
-  transition: transform 0.3s ease-in-out;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  z-index: 999;
 }
 
 .overlay {

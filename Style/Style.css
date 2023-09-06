@@ -76,21 +76,6 @@ nav {
   font-weight: bold;
 }
 
-.block__circleNext {
-  display: flex;
-  position: absolute;
-  bottom: 30px;
-}
-
-.block__circleNext__1th,
-.block__circleNext__2th,
-.block__circleNext__3th {
-  width: 5.3vh;
-  height: 5.3vh;
-  border-radius: 50px;
-  background: #d9d9d9;
-}
-
 .ViewProj {
   font-style: normal;
   font-weight: 400;
@@ -110,8 +95,4 @@ nav {
 
 .ViewProj:hover {
   background: #b3b3b3;
-}
-
-.container__circle {
-  padding: 0 70px;
 }

@@ -109,6 +109,6 @@
 }
 
 .zavod:hover .tooltip {
-  opacity: 1;
+  opacity: 0.5;
   visibility: visible;
 }

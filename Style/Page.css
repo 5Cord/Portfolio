@@ -12,7 +12,6 @@ nav {
 }
 
 .block__text {
-
   font-style: normal;
   font-weight: 400;
   font-size: 4.37vw;
@@ -86,16 +85,21 @@ nav {
 .back-button {
   position: fixed;
   top: 10vw;
-  left: 10vw;
-  background-color: #d9d9d9;
+  left: -1.5vw;
   border: none;
-  color: #333;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
   cursor: pointer;
+  transform: rotate(180deg);
+  transition: transform 0.3s; /* Добавляем плавный переход для анимации */
+}
+
+
+.back-button:hover {
+  transform: translateX(30px); /* Смещаем объект вправо на 10px при наведении */
 }
 
 .rightBlock__footer {
@@ -141,7 +145,7 @@ nav {
   z-index: 999;
 }
 
-.cross{
+.cross {
   width: 52vw;
   font-size: 150%;
   position: fixed;
@@ -153,7 +157,7 @@ nav {
   color: white;
 }
 
-.none{
+.none {
   display: none;
 }
 

@@ -77,15 +77,41 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper ", {
-            navigation: {
-                nextEl: ".swiper-button-next ",
-                prevEl: ".swiper-button-prev ",
-            },
-            mousewheel: {
-                releaseOnEdges: true,
-            },
-        });
+// Получаем сохраненный индекс слайда из локального хранилища
+var savedSlideIndex = localStorage.getItem("swiperSlideIndex");
+
+// Если индекс был сохранен, устанавливаем Swiper на этот слайд
+if (savedSlideIndex !== null) {
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    mousewheel: {
+      releaseOnEdges: true,
+    },
+    initialSlide: parseInt(savedSlideIndex), // Устанавливаем начальный слайд
+  });
+} else {
+  // Если индекс не был сохранен (первый визит на страницу), создаем Swiper
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    mousewheel: {
+      releaseOnEdges: true,
+    },
+  });
+}
+
+// Слушаем событие изменения слайда и сохраняем индекс в локальное хранилище
+swiper.on("slideChange", function () {
+  var currentSlideIndex = this.activeIndex;
+  localStorage.setItem("swiperSlideIndex", currentSlideIndex);
+});
+
+        
     </script>
 </body>
 

@@ -14,10 +14,22 @@
   </head>
 
   <body>
-    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none" class="back-button" onclick="goBack()" id="backButton">
-      <circle cx="27.5" cy="27.5" r="27.5" fill="#d9d9d9"/>
-      <path d="M8.93934 25.9393C8.35355 26.5251 8.35355 27.4749 8.93934 28.0607L18.4853 37.6066C19.0711 38.1924 20.0208 38.1924 20.6066 37.6066C21.1924 37.0208 21.1924 36.0711 20.6066 35.4853L12.1213 27L20.6066 18.5147C21.1924 17.9289 21.1924 16.9792 20.6066 16.3934C20.0208 15.8076 19.0711 15.8076 18.4853 16.3934L8.93934 25.9393ZM45 25.5L10 25.5L10 28.5L45 28.5L45 25.5Z" fill="Black"/>
-      </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="55"
+      height="55"
+      viewBox="0 0 55 55"
+      fill="none"
+      class="back-button"
+      onclick="goBack()"
+      id="backButton"
+    >
+      <circle cx="27.5" cy="27.5" r="27.5" fill="#d9d9d9" />
+      <path
+        d="M8.93934 25.9393C8.35355 26.5251 8.35355 27.4749 8.93934 28.0607L18.4853 37.6066C19.0711 38.1924 20.0208 38.1924 20.6066 37.6066C21.1924 37.0208 21.1924 36.0711 20.6066 35.4853L12.1213 27L20.6066 18.5147C21.1924 17.9289 21.1924 16.9792 20.6066 16.3934C20.0208 15.8076 19.0711 15.8076 18.4853 16.3934L8.93934 25.9393ZM45 25.5L10 25.5L10 28.5L45 28.5L45 25.5Z"
+        fill="Black"
+      />
+    </svg>
     <nav>
       <div class="block__logo"></div>
       <div class="block__logo__text">Vaytovich Dmitriy // Fronted</div>
@@ -54,10 +66,13 @@
         <div class="blockRight__skills">
           <div class="blockRight__skills__left BRS">
             <div class="blockRight__BRS--point">Базовые знания:</div>
-            <div class="blockRight__BRS--point">JavaScript</div>
-            <div class="blockRight__BRS--point">React</div>
-            <div class="blockRight__BRS--point">PHP</div>
-            <div class="blockRight__BRS--point">MySQL</div>
+            <div class="BL__Container">
+              <div class="blockRight__BRS--point BL JS__Point">JS</div>
+              <div class="blockRight__BRS--point BL SASS_Point">SASS</div>
+              <div class="blockRight__BRS--point BL React_Point">React</div>
+              <div class="blockRight__BRS--point BL PHP__Point">PHP</div>
+              <div class="blockRight__BRS--point BL MySQL__Point">MySQL</div>
+            </div>
           </div>
           <div class="blockRight__skills__right BRS">
             <div class="blockRight__BRS--point">Знание BEM</div>
@@ -81,16 +96,20 @@
       <div class="container__footer">
         <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
         <div class="rightBlock__footer">
-
           <div class="block__socSeti">
             <div class="block__socSeti__image">
-              <a href="https://vk.com/d_vai" target="_blank"><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
-              <a href="https://github.com/5Cord" target="_blank"><img src="Image/github-sign.png" alt="IconGitHub" /></a>
+              <a href="https://vk.com/d_vai" target="_blank"
+                ><img src="Image/vkontakte-sign.png" alt="IconVK"
+              /></a>
+              <a href="https://github.com/5Cord" target="_blank"
+                ><img src="Image/github-sign.png" alt="IconGitHub"
+              /></a>
               <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
-              <a href="https://twitter.com/home" target="_blank"><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
+              <a href="https://twitter.com/home" target="_blank"
+                ><img src="Image/twitter-sign.png" alt="IconTwitt"
+              /></a>
             </div>
-        </div>
-
+          </div>
         </div>
       </div>
     </footer>

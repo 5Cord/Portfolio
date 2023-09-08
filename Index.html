@@ -60,7 +60,7 @@
               <div class="block__circleNext__3th "><div class="block__circleNext__1th swiper-button-prev "></div></div>
       </div>
       <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js "></script>
-
+      <!-- <div class="custom-cursor"></div> -->
       <!-- Initialize Swiper -->
       <script>
   // Получаем сохраненный индекс слайда из локального хранилища
@@ -97,7 +97,16 @@
     localStorage.setItem("swiperSlideIndex", currentSlideIndex);
   });
 
-          
+  const customCursor = document.querySelector('.custom-cursor');
+
+// document.addEventListener('mousemove', (e) => {
+//     // Перемещаем курсор вместе с мышью
+//     customCursor.style.left = `${e.clientX}px`;
+//     customCursor.style.top = `${e.clientY}px`;
+// });
+
+// Дополнительные эффекты можно добавить здесь, например, анимации при наведении на элементы
+
       </script>
   </body>
 

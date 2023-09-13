@@ -89,7 +89,7 @@ var savedSlideIndex = localStorage.getItem("swiperSlideIndex");
 var windowWidth = window.innerWidth;
 var windowHeight = window.innerHeight;
 
-if (windowWidth <= 375 && windowHeight <= 667) {
+if (windowWidth <= 375 && windowHeight <= 812) {
   var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
     pagination: {
@@ -109,7 +109,7 @@ if (windowWidth <= 414 && windowHeight <= 736) {
   });
 }
 
-if (windowWidth <= 375 && windowHeight <= 812) {
+if (windowWidth <= 390 && windowHeight <= 844) {
   var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
     pagination: {
@@ -120,32 +120,32 @@ if (windowWidth <= 375 && windowHeight <= 812) {
 }
 
 
-// if (windowWidth >= 376 && windowHeight >= 668) {
-//   // Если индекс был сохранен, устанавливаем Swiper на этот слайд
-//   if (savedSlideIndex !== null) {
-//     var swiper = new Swiper(".mySwiper", {
-//       navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//       },
-//       mousewheel: {
-//         releaseOnEdges: true,
-//       },
-//       initialSlide: parseInt(savedSlideIndex), // Устанавливаем начальный слайд
-//     });
-//   } else {
-//     // Если индекс не был сохранен (первый визит на страницу), создаем Swiper
-//     var swiper = new Swiper(".mySwiper", {
-//       navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//       },
-//       mousewheel: {
-//         releaseOnEdges: true,
-//       },
-//     });
-//   }
-// }
+if (windowWidth >= 391 && windowHeight >= 845) {
+  // Если индекс был сохранен, устанавливаем Swiper на этот слайд
+  if (savedSlideIndex !== null) {
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      mousewheel: {
+        releaseOnEdges: true,
+      },
+      initialSlide: parseInt(savedSlideIndex), // Устанавливаем начальный слайд
+    });
+  } else {
+    // Если индекс не был сохранен (первый визит на страницу), создаем Swiper
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      mousewheel: {
+        releaseOnEdges: true,
+      },
+    });
+  }
+}
 
   
 

@@ -97,3 +97,14 @@ nav {
   background: #b3b3b3;
 }
 
+.none{
+  display: none;
+}
+
+.containerUpBlock{
+  display: none;
+}
+
+.containerRightBlock{
+  display: none;
+}

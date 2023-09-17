@@ -1,0 +1,30 @@
+.bigBlock{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:190px;
+    margin-bottom:200px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.blockEd{
+    width: 100px;
+    height: 100px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.blockEd img{
+    width: 80%;
+}
+
+.padLU{
+    margin: 0 25px 25px 0 ;
+}
+.padRD{
+    margin: 0 0 0 25px ;
+}

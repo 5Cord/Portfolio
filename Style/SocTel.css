@@ -1,6 +1,9 @@
 .bigBlock{
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 70vw;
     margin-top:190px;
     margin-bottom:200px;
     margin-left: 75px;

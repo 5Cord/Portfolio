@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    width: 70vw;
     margin-top:190px;
     margin-bottom:200px;
     margin-left: 75px;
@@ -31,3 +30,128 @@
 .padRD{
     margin: 0 0 0 25px ;
 }
+
+html {
+    overflow-y: hidden;
+  }
+  nav {
+    display: none;
+  }
+  .block__logo__text {
+    display: none;
+  }
+  .block__logo {
+    display: none;
+  }
+  .TitleText {
+    font-size: 36px;
+  }
+
+  .TitleText__MainScrin {
+    font-size: 40px;
+  }
+
+  .block__tiitleText,
+  .swiper-slide,
+  .swiper-slide-prev {
+    /* height: 20px; */
+  }
+  element.style {
+    height: 100px; /* Установите желаемую высоту в пикселях */
+  }
+  .ViewProj {
+    font-style: normal;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+    background: #d9d9d9;
+    border: none;
+    width: 5.8125rem;
+    height: 1.769rem;
+    flex-shrink: 0;
+    cursor: pointer;
+
+    color: #000;
+  }
+  .PC {
+    display: none;
+  }
+  .none {
+    display: block;
+  }
+  .containerUpBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .containerUpBlock__soc {
+    display: flex;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+    align-items: center;
+  }
+  .containerUpBlock {
+    margin-bottom: 20vw;
+  }
+  .containerRightBlock {
+    display: flex;
+    position: absolute;
+    top: 53vh;
+    right: 0.2vh;
+    margin-right: 5px;
+    flex-direction: column;
+    z-index: 3;
+  }
+
+  .circleLogo {
+    width: 30px; /* Ширина и высота должны соответствовать размерам вашей окружности */
+    height: 30px;
+    background-color: #d9d9d9; /* Цвет фона, который совпадает с цветом окружности */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    border-radius: 50%; /* Закругленные углы для создания круглого элемента */
+    display: flex; /* Располагаем дочерние элементы по центру */
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    font-size: 16px; /* Размер текста */
+    font-weight: bold; /* Жирный шрифт */
+  }
+
+  .container {
+    font-size: 36px;
+    text-align: center;
+    width: 100vw;
+    height: 65vh;
+  }
+
+  .swiper {
+    display: flex;
+    height: 100%;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+
+  .swiper-button-next.swiper-button-disabled {
+    display: none;
+  }
+
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-button-prev.swiper-button-disabled {
+    display: none;
+  }
+  .swiper-slide {
+    height: 200px;
+  }

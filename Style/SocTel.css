@@ -1,12 +1,17 @@
 .bigBlock{
+    width: 225px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    margin-top:190px;
-    margin-bottom:200px;
-    margin-left: 75px;
-    margin-right: 75px;
+}
+
+.container_bigBlock{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .blockEd{

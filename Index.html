@@ -89,7 +89,7 @@ var savedSlideIndex = localStorage.getItem("swiperSlideIndex");
 var windowWidth = window.innerWidth;
 var windowHeight = window.innerHeight;
 
-if (windowWidth <= 375 && windowHeight <= 812) {
+if (windowWidth <= 768 && windowHeight <= 896) {
   var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
     pagination: {
@@ -97,64 +97,33 @@ if (windowWidth <= 375 && windowHeight <= 812) {
       clickable: true,
     },
   });
+}else{
+  // Если индекс был сохранен, устанавливаем Swiper на этот слайд
+  if (savedSlideIndex !== null) {
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      mousewheel: {
+        releaseOnEdges: true,
+      },
+      initialSlide: parseInt(savedSlideIndex), // Устанавливаем начальный слайд
+    });
+  } else {
+    // Если индекс не был сохранен (первый визит на страницу), создаем Swiper
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      mousewheel: {
+        releaseOnEdges: true,
+      },
+    });
+  }
 }
 
-if (windowWidth <= 414 && windowHeight <= 736) {
-  var swiper = new Swiper(".mySwiper", {
-    direction: "vertical",
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-}
-
-if (windowWidth <= 384 && windowHeight <= 915) {
-  var swiper = new Swiper(".mySwiper", {
-    direction: "vertical",
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-}
-if (windowWidth <= 416 && windowHeight <= 896) {
-  var swiper = new Swiper(".mySwiper", {
-    direction: "vertical",
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-}
-
-
-// if (windowWidth >= 391 && windowHeight >= 845) {
-//   // Если индекс был сохранен, устанавливаем Swiper на этот слайд
-//   if (savedSlideIndex !== null) {
-//     var swiper = new Swiper(".mySwiper", {
-//       navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//       },
-//       mousewheel: {
-//         releaseOnEdges: true,
-//       },
-//       initialSlide: parseInt(savedSlideIndex), // Устанавливаем начальный слайд
-//     });
-//   } else {
-//     // Если индекс не был сохранен (первый визит на страницу), создаем Swiper
-//     var swiper = new Swiper(".mySwiper", {
-//       navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//       },
-//       mousewheel: {
-//         releaseOnEdges: true,
-//       },
-//     });
-//   }
-// }
 
   
 

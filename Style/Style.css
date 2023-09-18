@@ -112,3 +112,7 @@ nav {
 .Tel__ImageScreen {
 display: none;
 }
+
+.modal{
+  display: none;
+}

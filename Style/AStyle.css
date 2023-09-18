@@ -11,6 +11,9 @@
   .block__logo {
     display: none;
   }
+  .block__logo a{
+    display: none;
+  }
   .TitleText {
     font-size: 36px;
   }

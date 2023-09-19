@@ -1,88 +1,126 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Style/Page.css" />
+    <link rel="stylesheet" href="Style/Header.css" />
+    <link rel="stylesheet" href="Style/Footer.css" />
+    <link rel="stylesheet" href="Style/Style.css" />
+    <link rel="stylesheet" href="Style/AStyle.css" />
+    <link rel="stylesheet" href="Style/AStylePage.css" />
+    <title>Page</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="Style/Page.css" />
-  <link rel="stylesheet" href="Style/Header.css" />
-  <link rel="stylesheet" href="Style/Footer.css" />
-  <title>Page</title>
-</head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none" class="back-button" onclick="goBack()" id="backButton">
+      <circle cx="27.5" cy="27.5" r="27.5" fill="#d9d9d9"/>
+      <path d="M8.93934 25.9393C8.35355 26.5251 8.35355 27.4749 8.93934 28.0607L18.4853 37.6066C19.0711 38.1924 20.0208 38.1924 20.6066 37.6066C21.1924 37.0208 21.1924 36.0711 20.6066 35.4853L12.1213 27L20.6066 18.5147C21.1924 17.9289 21.1924 16.9792 20.6066 16.3934C20.0208 15.8076 19.0711 15.8076 18.4853 16.3934L8.93934 25.9393ZM45 25.5L10 25.5L10 28.5L45 28.5L45 25.5Z" fill="Black"/>
+      </svg>
+    <nav>
 
-<body>
-  <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none" class="back-button" onclick="goBack()" id="backButton">
-    <circle cx="27.5" cy="27.5" r="27.5" fill="#d9d9d9"/>
-    <path d="M8.93934 25.9393C8.35355 26.5251 8.35355 27.4749 8.93934 28.0607L18.4853 37.6066C19.0711 38.1924 20.0208 38.1924 20.6066 37.6066C21.1924 37.0208 21.1924 36.0711 20.6066 35.4853L12.1213 27L20.6066 18.5147C21.1924 17.9289 21.1924 16.9792 20.6066 16.3934C20.0208 15.8076 19.0711 15.8076 18.4853 16.3934L8.93934 25.9393ZM45 25.5L10 25.5L10 28.5L45 28.5L45 25.5Z" fill="Black"/>
-    </svg>
-  <nav>
-    <a href="About.html">
-    <div class="block__logo">
-      <div class="block__logo__text">Vaytovich Dmitriy</div>
+      <a href="About.html">
+      <div class="block__logo">
+        <div class="block__logo__text">Vaytovich Dmitriy</div>
+      </div>
+    </a>
+    <div class="containerRightBlock">
+      <div class="circleLogo">
+        VD
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+        <path d="M14.9997 26.2499C14.8352 26.2509 14.6721 26.2193 14.5198 26.1571C14.3675 26.0949 14.229 26.0033 14.1122 25.8874L4.39972 16.1624C3.18142 14.9314 2.49805 13.2694 2.49805 11.5374C2.49805 9.80544 3.18142 8.14343 4.39972 6.9124C5.62755 5.68804 7.29076 5.00049 9.02472 5.00049C10.7587 5.00049 12.4219 5.68804 13.6497 6.9124L14.9997 8.2624L16.3497 6.9124C17.5775 5.68804 19.2408 5.00049 20.9747 5.00049C22.7087 5.00049 24.3719 5.68804 25.5997 6.9124C26.818 8.14343 27.5014 9.80544 27.5014 11.5374C27.5014 13.2694 26.818 14.9314 25.5997 16.1624L15.8872 25.8874C15.7704 26.0033 15.6319 26.0949 15.4796 26.1571C15.3273 26.2193 15.1642 26.2509 14.9997 26.2499Z" fill="#231F20"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+          <path d="M26.2498 5.00047C26.2368 4.88564 26.2117 4.77251 26.1748 4.66297V4.55047C26.1149 4.41136 26.0302 4.28429 25.9248 4.17547C25.8187 4.0758 25.6961 3.99543 25.5623 3.93797H25.4498C25.3346 3.84998 25.2028 3.7862 25.0623 3.75047H24.9998C24.8755 3.73161 24.7491 3.73161 24.6248 3.75047L2.12482 11.2505C1.87474 11.3327 1.65699 11.4917 1.50262 11.705C1.34825 11.9182 1.26514 12.1747 1.26514 12.438C1.26514 12.7012 1.34825 12.9577 1.50262 13.171C1.65699 13.3842 1.87474 13.5433 2.12482 13.6255L12.7873 17.1755L16.3373 27.838C16.4195 28.0881 16.5786 28.3058 16.7918 28.4602C17.005 28.6145 17.2616 28.6977 17.5248 28.6977C17.7881 28.6977 18.0446 28.6145 18.2578 28.4602C18.4711 28.3058 18.6301 28.0881 18.7123 27.838L26.2123 5.33797C26.2401 5.2277 26.2527 5.11415 26.2498 5.00047ZM20.3748 7.86297L13.4123 14.8255L6.44982 12.5005L20.3748 7.86297ZM17.4998 23.5505L15.1748 16.588L22.1373 9.62547L17.4998 23.5505Z" fill="#231F20"/>
+          </svg>
     </div>
-  </a>
-    <div class="block__text">Веб-сайт, подключенный к API</div>
-  </nav>
+      <div class="block__text block__text__DOP_Medium">Использование API</div>
+    
+    </nav>
+    <div class="containerUpBlock">
+      <svg xmlns="http://www.w3.org/2000/svg" width="2" height="13" viewBox="0 0 2 13" fill="none">
+        <path d="M1 1L1 12" stroke="black" stroke-linecap="round"/>
+        </svg>
+        <a href="Index.html">
+          <div class="containerUpBlock__soc"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
+            <path d="M15.7915 6.45834H3.43734L7.21859 1.91667C7.3954 1.70394 7.48046 1.42969 7.45507 1.15425C7.42967 0.878804 7.2959 0.62473 7.08317 0.447919C6.87044 0.271108 6.59619 0.186044 6.32075 0.211439C6.04531 0.236835 5.79123 0.37061 5.61442 0.583336L0.406087 6.83333C0.371046 6.88305 0.339712 6.93527 0.312337 6.98959C0.312337 7.04167 0.312337 7.07292 0.239421 7.125C0.192206 7.24444 0.167484 7.37158 0.166504 7.5C0.167484 7.62843 0.192206 7.75557 0.239421 7.875C0.239421 7.92708 0.23942 7.95833 0.312337 8.01042C0.339712 8.06473 0.371046 8.11696 0.406087 8.16667L5.61442 14.4167C5.71236 14.5343 5.83501 14.6288 5.97364 14.6936C6.11226 14.7584 6.26347 14.7919 6.4165 14.7917C6.65989 14.7921 6.89576 14.7074 7.08317 14.5521C7.18865 14.4646 7.27584 14.3572 7.33975 14.236C7.40365 14.1149 7.44303 13.9822 7.4556 13.8458C7.46818 13.7094 7.45372 13.5718 7.41305 13.441C7.37238 13.3101 7.3063 13.1886 7.21859 13.0833L3.43734 8.54167H15.7915C16.0678 8.54167 16.3327 8.43192 16.5281 8.23657C16.7234 8.04122 16.8332 7.77627 16.8332 7.5C16.8332 7.22373 16.7234 6.95878 16.5281 6.76343C16.3327 6.56808 16.0678 6.45834 15.7915 6.45834Z" fill="#231F20"/>
+          </svg></div></a>
+    </div>
 
-  <div class="container__page">
-    <div class="leftBlock">
-      <div class="description">
-        <div class="titleDescription">Описание:</div>
-        API (Application Programming Interface) – это набор правил, по которым одно приложение может взаимодействовать с
+    <div class="container__page">
+      <div class="Tel__ImageScreen">
+        <img class="telImage" src="Image/API_2.png" alt="Notebook"onclick="openModal()" >
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <!-- Здесь разместите галерею фотографий -->
+          <img src="Image/API_1.png" alt="Photo 1">
+          <img src="Image/API_2.png" alt="Photo 1">
+          <img src="Image/NoteBook(API).png" alt="Photo 2">
+          <img src="Image/Telephone(API).png" alt="Photo 2">
+          <!-- Добавьте другие изображения -->
+        </div>
+      </div>
+
+      <div class="leftBlock">
+        <div class="description">
+          <div class="titleDescription">Описание:</div>
+          API (Application Programming Interface) – это набор правил, по которым одно приложение может взаимодействовать с
         другим. В контексте веб-разработки API позволяет вам получать данные от сторонних сервисов и использовать их на
         вашем сайте или отправлять данные на сторонние сервисы.</br>
+        </div>
+      </div>
+      <div class="rightBlock">
+        <div class="container__device">
+          <img class="Notebook" src="Image/NoteBook(content).png" alt="Notebook">
+          <!-- <img class="Telephone" src="Image/Telephone.png" alt="Notebook"> -->
+        </div>
       </div>
     </div>
-    <div class="rightBlock">
-      <div class="container__device">
-        <img class="Notebook" src="Image/NoteBook(API).png" alt="Notebook">
-        <img class="Telephone" src="Image/Telephone(API).png" alt="Notebook">
-      </div>
-    </div>
-  </div>
-  <div class="container__page downPage">
-    <div class="leftBlock">
-      <div class="description">
-        Разрабатывая данный проект, разработчик ипользовал открытый, бесплатный API (<a
+    <div class="container__page downPage">
+      <div class="leftBlock">
+        <div class="description">
+          Разрабатывая данный проект, разработчик ипользовал открытый, бесплатный API (<a
           href="https://restcountries.com/" target="_blank">restcountries.com</a>).
         Приложение построенно на взаимодействие пользователя и определнным набором правил, который прописал разработчик.
         Данное API даёт доступ к большой базе странн и её полной информации (континет, столица, страна, язык, валюта).
         </br>
+        </div>
+      </div>
+      <div class="rightBlock">
+        <div class="container__device">
+          <div class="overlay" id="overlay"></div>
+          <img class="ScreenUp screen" src="Image/API_1.png" alt="Notebook">
+          <img class="ScreenDown screen" src="Image/API_2.png" alt="Notebook">
+        </div>
       </div>
     </div>
-    <div class="rightBlock">
-      <div class="container__device">
-        <div class="overlay" id="overlay"></div>
+    <footer>
+      <div class="container__footer">
+        <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
+        <div class="rightBlock__footer">
 
-        <div class="cross none">✖</div>
-        <img class="ScreenUp screen" src="Image/API_1.png" alt="Notebook">
-        <img class="ScreenDown screen" src="Image/API_2.png" alt="Notebook">
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="container__footer">
-      <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
-      <div class="rightBlock__footer">
-
-        <div class="block__socSeti">
-          <div class="block__socSeti__image">
-            <a href="https://vk.com/d_vai" target="_blank"><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
-            <a href="https://github.com/5Cord" target="_blank"><img src="Image/github-sign.png" alt="IconGitHub" /></a>
-            <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
-            <a href="https://twitter.com/home" target="_blank"><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
-          </div>
+          <div class="block__socSeti">
+            <div class="block__socSeti__image">
+              <a href="https://vk.com/d_vai" target="_blank"><img src="Image/vkontakte-sign.png" alt="IconVK" /></a>
+              <a href="https://github.com/5Cord" target="_blank"><img src="Image/github-sign.png" alt="IconGitHub" /></a>
+              <a href=""><img src="Image/insta-sign.png" alt="IconInst" /></a>
+              <a href="https://twitter.com/home" target="_blank"><img src="Image/twitter-sign.png" alt="IconTwitt" /></a>
+            </div>
         </div>
 
+        </div>
       </div>
-    </div>
-  </footer>
-  <script src="script/buttonScript.js"></script>
-  <script src="script/magnImage.js"></script>
-</body>
-
+    </footer>
+    <script src="script/magnImage.js"></script>
+    <script src="script/buttonScript.js"></script>
+    <script src="script/ModalGalary.js"></script>
+  </body>
 </html>

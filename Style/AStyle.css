@@ -136,4 +136,8 @@
   .swiper-slide {
     height: 200px;
   }
+
+  .heart_red{
+    color: red;
+  }
 }

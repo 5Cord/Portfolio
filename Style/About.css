@@ -11,7 +11,7 @@
   width: 62.5%;
   height: 111px;
   text-align: center;
-  font-size: 4.18vw;
+  font-size: 3vw;
 }
 
 .blockLeft {
@@ -130,9 +130,20 @@
 .React_Point,
 .SASS_Point,
 .PHP__Point,
-.MySQL__Point{
+.MySQL__Point,
+.CSS__Point, 
+.HTML__Point,
+.BEM__Point,
+.Adaptive__Point{
   width: max-content;
   transition: background-color 0.2s, color 0.2s;
+}
+
+.block__one,
+.block__two,
+.block__three,
+.block__four {
+  display: none;
 }
 
 .JS__Point{

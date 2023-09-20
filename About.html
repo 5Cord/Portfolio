@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="Style/Style.css" />
     <link rel="stylesheet" href="Style/About.css" />
     <link rel="stylesheet" href="Style/scroll.css" />
+    <link rel="stylesheet" href="Style/AStyle.css" />
+    <link rel="stylesheet" href="Style/AStylePage.css" />
+    <link rel="stylesheet" href="Style/AAbout.css" />
     <title>Page</title>
   </head>
 
@@ -32,9 +35,38 @@
     </svg>
     <nav>
       <div class="block__logo"></div>
-      <div class="block__logo__text">Vaytovich Dmitriy // Fronted</div>
+      <div class="block__logo__text">
+        Vaytovich Dmitriy - Frontend developer
+      </div>
+      <!-- <div class="block__logo__text">Vaytovich Dmitriy // Fronted</div> -->
       <div id="section1" class="block__text">Обо мне</div>
     </nav>
+    <div class="containerUpBlock">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="2"
+        height="13"
+        viewBox="0 0 2 13"
+        fill="none"
+      >
+        <path d="M1 1L1 12" stroke="black" stroke-linecap="round" />
+      </svg>
+      <a href="Index.html">
+        <div class="containerUpBlock__soc">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="17"
+            height="15"
+            viewBox="0 0 17 15"
+            fill="none"
+          >
+            <path
+              d="M15.7915 6.45834H3.43734L7.21859 1.91667C7.3954 1.70394 7.48046 1.42969 7.45507 1.15425C7.42967 0.878804 7.2959 0.62473 7.08317 0.447919C6.87044 0.271108 6.59619 0.186044 6.32075 0.211439C6.04531 0.236835 5.79123 0.37061 5.61442 0.583336L0.406087 6.83333C0.371046 6.88305 0.339712 6.93527 0.312337 6.98959C0.312337 7.04167 0.312337 7.07292 0.239421 7.125C0.192206 7.24444 0.167484 7.37158 0.166504 7.5C0.167484 7.62843 0.192206 7.75557 0.239421 7.875C0.239421 7.92708 0.23942 7.95833 0.312337 8.01042C0.339712 8.06473 0.371046 8.11696 0.406087 8.16667L5.61442 14.4167C5.71236 14.5343 5.83501 14.6288 5.97364 14.6936C6.11226 14.7584 6.26347 14.7919 6.4165 14.7917C6.65989 14.7921 6.89576 14.7074 7.08317 14.5521C7.18865 14.4646 7.27584 14.3572 7.33975 14.236C7.40365 14.1149 7.44303 13.9822 7.4556 13.8458C7.46818 13.7094 7.45372 13.5718 7.41305 13.441C7.37238 13.3101 7.3063 13.1886 7.21859 13.0833L3.43734 8.54167H15.7915C16.0678 8.54167 16.3327 8.43192 16.5281 8.23657C16.7234 8.04122 16.8332 7.77627 16.8332 7.5C16.8332 7.22373 16.7234 6.95878 16.5281 6.76343C16.3327 6.56808 16.0678 6.45834 15.7915 6.45834Z"
+              fill="#231F20"
+            />
+          </svg></div
+      ></a>
+    </div>
 
     <div class="containerContent">
       <div class="blockLeft">
@@ -67,18 +99,65 @@
           <div class="blockRight__skills__left BRS">
             <div class="blockRight__BRS--point">Базовые знания:</div>
             <div class="BL__Container">
-              <div class="blockRight__BRS--point BL JS__Point">JS</div>
-              <div class="blockRight__BRS--point BL SASS_Point">SASS</div>
-              <div class="blockRight__BRS--point BL React_Point">React</div>
-              <div class="blockRight__BRS--point BL PHP__Point">PHP</div>
-              <div class="blockRight__BRS--point BL MySQL__Point">MySQL</div>
+              <div class="blockRight__BRS--point BL JS__Point PCPoint">JS</div>
+              <div class="blockRight__BRS--point BL SASS_Point PCPoint">
+                SASS
+              </div>
+              <div class="blockRight__BRS--point BL React_Point PCPoint">
+                React
+              </div>
+              <div class="blockRight__BRS--point BL PHP__Point PCPoint">
+                PHP
+              </div>
+              <div class="blockRight__BRS--point BL MySQL__Point PCPoint">
+                MySQL
+              </div>
+
+              <div class="block__one">
+                <div class="blockRight__BRS--point BL HTML__Point phonePoint">
+                  HTML
+                </div>
+                <div class="blockRight__BRS--point BL CSS__Point phonePoint">
+                  CSS
+                </div>
+              </div>
+
+              <div class="block__two">
+                <div
+                  class="blockRight__BRS--point BL Adaptive__Point phonePoint"
+                >
+                  Adaptive
+                </div>
+                <div class="blockRight__BRS--point BL BEM__Point phonePoint">
+                  BEM
+                </div>
+                <div class="blockRight__BRS--point BL SASS_Point phonePoint">
+                  SASS
+                </div>
+              </div>
+              <div class="block__three">
+                <div class="blockRight__BRS--point BL JS__Point phonePoint">
+                  JS
+                </div>
+                <div class="blockRight__BRS--point BL React_Point phonePoint">
+                  React
+                </div>
+              </div>
+              <div class="block__four">
+                <div class="blockRight__BRS--point BL MySQL__Point phonePoint">
+                  MySQL
+                </div>
+                <div class="blockRight__BRS--point BL PHP__Point phonePoint">
+                  PHP
+                </div>
+              </div>
             </div>
           </div>
           <div class="blockRight__skills__right BRS">
             <div class="blockRight__BRS--point">Знание BEM</div>
             <div class="blockRight__BRS--point">Препроцессора SASS</div>
             <div class="blockRight__BRS--point">
-              Опыт адаптивной/резиновой верстки; 
+              Опыт адаптивной/резиновой верстки;
             </div>
             <div class="blockRight__BRS--point">
               Использование скриптов, которые обеспечивают визуализацию и
@@ -88,16 +167,23 @@
               Опыт создания HTML-страницы сайта на основе дизайн-макетов;
             </div>
             <div class="blockRight__BRS--point">
-              Тест текст, Тест текст, Тест текст, Тест текст, Тест текст, Тест текст.
+              Тест текст, Тест текст, Тест текст, Тест текст, Тест текст, Тест
+              текст.
             </div>
             <div class="blockRight__BRS--point">
-              Test text, Test text, Test text, Test text, Test text, Test text, Test text. Yes
+              Test text, Test text, Test text, Test text, Test text, Test text,
+              Test text. Yes
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+          <div class="blockLeft__photo"><img src="Image/ava.jpg" alt=""></div>
+          <p>Hello world</p>
+      </div>
+  </div>
     <footer>
       <div class="container__footer">
         <div class="leftBlock__footer originalFooter">©️Vaytovich Dmitriy</div>
@@ -119,7 +205,6 @@
         </div>
       </div>
     </footer>
-
     <script src="script/buttonScript.js"></script>
   </body>
 </html>

@@ -125,9 +125,6 @@ if (windowWidth <= 768 && windowHeight <= 896) {
   }
 }
 
-
-  
-
   // Слушаем событие изменения слайда и сохраняем индекс в локальное хранилище
   swiper.on("slideChange", function () {
     var currentSlideIndex = this.activeIndex;
@@ -136,14 +133,6 @@ if (windowWidth <= 768 && windowHeight <= 896) {
 
   const customCursor = document.querySelector('.custom-cursor');
 
-    // var swiper = new Swiper(".mySwiper", {
-    //   direction: "vertical",
-    //   pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    //   },
-    // });
-// Находим элементы SVG и <path>
   const svgElement = document.getElementById('mySvg');
 const pathElement = document.getElementById('myPath');
 

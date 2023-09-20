@@ -12,12 +12,18 @@ document.addEventListener('mousemove', (e) => {
 
 // Дополнительные эффекты можно добавить здесь, например, анимации при наведении на элементы
 
-document.addEventListener("DOMContentLoaded", function() {
-  const modal = document.getElementById("myModal");
+document.addEventListener("DOMContentLoaded", function () {
+  const isMobile = window.matchMedia("only screen and (max-width: 768px)").matches; // Указать медиа-запрос для мобильных экранов
 
-  modal.classList.add("active"); // Добавляем класс "active" для активации модального окна
+  if (isMobile) {
+      const modal = document.querySelector(".modall");
 
-  setTimeout(function() {
-      modal.classList.remove("active"); // Убираем класс "active" для исчезновения модального окна
-  }, 2000); // Закрыть модальное окно через 2 секунды
+      // Показать модальное окно
+      modal.style.display = "flex";
+
+      // Закрыть модальное окно после 4 секунд (1 секунда на плавное исчезновение)
+      setTimeout(function () {
+          modal.style.display = "none";
+      }, 4000);
+  }
 });

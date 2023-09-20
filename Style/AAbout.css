@@ -192,7 +192,7 @@
 .BLDT1,
 .BLDT2,
 .BLDT3{
-  z-index: 1;
+  z-index: 1; 
 }
 .tooltip{
   display: none;

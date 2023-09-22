@@ -108,7 +108,7 @@
     justify-content: center;
     color: #afd5ff;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     width: 100vw;
   }
 
@@ -125,7 +125,7 @@
     width: 100%;
     height: auto;
     background-color: #d1d1d100;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     align-items: center;
     justify-content: center;
@@ -198,6 +198,70 @@
 .tooltip{
   display: none;
 }
+
+.JS__Point{
+  background-color: #FFFDCF;
+  color: rgb(44, 44, 44);
+}
+
+.React_Point{
+  background-color: #F0E9FF;
+  color: rgb(44, 44, 44);
+}
+.SASS_Point{
+  background-color: #FFDFFA;
+  color: rgb(44, 44, 44);
+}
+.PHP__Point{
+  background-color: #BDC0FF;
+  color: rgb(44, 44, 44);
+}
+.MySQL__Point{
+  background-color: #C9CBFF;
+  color: rgb(44, 44, 44);
+}
+
+.HTML__Point{
+  background-color: #FFE9C9;
+  color: rgb(44, 44, 44);
+}
+
+.CSS__Point{
+  background-color: #EBEBFF;
+  color: rgb(44, 44, 44);
+}
+
+.Adaptive__Point{
+  background-color: #ECFFC5;
+  color: rgb(44, 44, 44);
+}
+
+.BEM__Point{
+ background-color: #C8F2FF; 
+ color: rgb(44, 44, 44);
+}
+
+.JS__Point:hover{
+  background-color: #FFFDCF;
+  color: rgb(44, 44, 44);
+}
+.React_Point:hover{
+  background-color: #F0E9FF;
+  color: rgb(44, 44, 44);
+}
+.SASS_Point:hover{
+  background-color: #FFDFFA;
+  color: rgb(44, 44, 44);
+}
+.PHP__Point:hover{
+  background-color: #BDC0FF;
+  color: rgb(44, 44, 44);
+}
+.MySQL__Point:hover{
+  background-color: #C9CBFF;
+  color: rgb(44, 44, 44);
+}
+
 }
 
 * {

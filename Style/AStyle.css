@@ -127,7 +127,7 @@
   }
 
   .swiper-button-prev {
-    display: none;
+    display: none; 
   }
 
   .swiper-button-prev.swiper-button-disabled {

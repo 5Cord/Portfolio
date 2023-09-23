@@ -79,7 +79,7 @@
     display: flex;
     position: absolute;
     top: 53vh;
-    right: 0.2vh;
+    right: 0.5vh;
     margin-right: 5px;
     flex-direction: column;
     z-index: 3;
@@ -143,8 +143,8 @@
 
   .point__CRB{
     margin-bottom: 18px;
-    width: 40px; /* Ширина и высота должны соответствовать размерам вашей окружности */
-    height: 40px;
+    width: 35px; /* Ширина и высота должны соответствовать размерам вашей окружности */
+    height: 35px;
   }
 }
 
